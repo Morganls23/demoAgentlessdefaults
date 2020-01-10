@@ -1,6 +1,6 @@
 #
 # NOTICE: the values in this file will override the values provided to the container
-#         
+#
 #         if that is not the intent, and a default value should be set instead
 #         use a syntax like:
 #         export MY_ENVIRONMENT_VARIABLE_0=${MY_ENVIRONMENT_VARIABLE_0:=myDefaultValue}
@@ -24,7 +24,7 @@ PING_IDENTITY_ACCEPT_EULA=YES
 #    SERVER_PROFILE_PATH - Path to use within repo (Optional)
 #################################################################################
 SERVER_PROFILE_URL=${GIT_REPO}
-SERVER_PROFILE_PATH=getting-started/pingfederate
+SERVER_PROFILE_PATH=getting-started/pingfederate/
 
 #################################################################################
 # Directory on local host machine to map in and out directories from container
